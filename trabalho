@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+a {
+    color: rgb(202, 202, 202);
+    transition: 0.3s;
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+}
+
+button {
+    display: inline-block;
+    height: 2rem;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(238, 238, 238, 1) 35%, rgba(200, 200, 200, 1) 100%);
+    color: black;
+    font-weight: bold;
+    border-radius: 1rem;
+    padding: 0 2rem;
+    cursor: pointer;
+    transition: all .3s
+}
+
+.logo {
+    width: 22rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    height: 5rem;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+form label {
+    color: white;
+    font-size: 1.4rem;
+}
+
+form input {
+    width: 10rem;
+    border-radius: .1rem;
+}
+
+.nav-list {
+    display: flex;
+    gap: 3rem;
+}
+
+.nav-list {
+    margin-left: 3.3rem;
+}
+
+.nav-list li {
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: .2rem;
+}
+
+
+.team {
+    max-width: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.teamBackground {
+    height: 100%;
+    position: absolute;
+    z-index: -5;
+    border: 0;
+}
+
+.conteinerText {
+    width: 100%;
+    max-width: 100%;
+}
+
+.Title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.conteinerText h1 {
+    margin-top: 1rem;
+    color: white;
+    font-size: 4rem;
+}
+
+.History {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.HistoryText {
+    width: 38rem;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.HistoryText h2 {
+    text-align: center;
+    font-size: 2.3rem;
+    color: white;
+}
+
+.HistoryText p {
+    font-size: 1.2rem;
+    color:mintcream;
+    text-align: justify;
+}
+
+
